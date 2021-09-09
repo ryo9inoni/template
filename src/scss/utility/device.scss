@@ -1,0 +1,17 @@
+.dv-sp{
+  @include mq('pc'){
+    display: none;
+  }
+  @include mq('sp'){
+    display: block;
+  }
+}
+
+.dv-pc{
+  @include mq('pc'){
+    display: block;
+  }
+  @include mq('sp'){
+    display: none;
+  }
+}
