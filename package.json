@@ -4,9 +4,9 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "webpack",
+    "start": "npm run watch & npm run server",
     "watch": "webpack --watch",
-    "start": "webpack-dev-server"
+    "server": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
